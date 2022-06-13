@@ -1,4 +1,5 @@
- - name: Create a snapshot
+---
+- name: Create a snapshot
     vmware_guest_snapshot:
       hostname: "{{ vcenter_hostname }}"
       username: "{{ vcenter_username }}"
